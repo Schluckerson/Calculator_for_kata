@@ -156,7 +156,6 @@ public class Main
     {
         Scanner in = new Scanner(System.in);
 
-        System.out.println(5/10);
 
 
         System.out.println("Введите пример:");
