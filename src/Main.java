@@ -142,7 +142,7 @@ public class Main
         {
             a = Integer.parseInt(operands[0]);
             b = Integer.parseInt(operands[1]);
-            if (a > 10 || a < 1 || b > 10 || b < 10) throw new Exception("Числа могут быть только от 1 до 10.");
+            if (a > 10 || a < 1 || b > 10 || b < 1) throw new Exception("Числа могут быть только от 1 до 10.");
 
             return Integer.toString(getSum(operator, a, b));
         }
